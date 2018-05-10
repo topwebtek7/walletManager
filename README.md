@@ -6,6 +6,8 @@
 
 `npm install -g react-native-cli`
 
+`yarn`
+
 REF: https://facebook.github.io/react-native/docs/getting-started.html
 
 ## Running

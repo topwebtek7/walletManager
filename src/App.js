@@ -92,7 +92,7 @@ export default class App extends Component<Props> {
       <View style={styles.mainContainer}>
         <View style={styles.walletsContainer}>
           <Wallet walletName={'A'} balance={this.state.walletA} inputBalance={this.state.walletAInput} setValue={this._setValueA} />
-          <Wallet walletName={'B'} balance={this.state.walletB} inputBalance={this.state.walletBInput} setValue={this._setValueB}/>
+          <Wallet walletName={'B'} balance={this.state.walletB} inputBalance={this.state.walletBInput} setValue={this._setValueB} />
         </View>
         <View style={styles.buttonsContainer}>
           <TouchableOpacity

@@ -8,10 +8,6 @@ const styles = StyleSheet.create({
     height: '100%'
   },
   container: {
-    // flex: 1,
-    // justifyContent: 'center',
-    // alignItems: 'center',
-    // backgroundColor: '#F5FCFF',
   },
   centerText: {
     textAlign: 'center'

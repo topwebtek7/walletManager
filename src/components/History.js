@@ -37,13 +37,11 @@ export default class History extends Component<Props> {
     const {history} = this.props
     return (
       <ScrollView style={styles.historyScrollView}>
-        {/*<View style={styles.historyTable}>*/}
-          { this._renderHeader() }
-          {
-            history && history.length > 0
-            && history.map((row, ind) => this._renderRow(row, ind))
-          }
-        {/*</View>*/}
+        { this._renderHeader() }
+        {
+          history && history.length > 0
+          && history.map((row, ind) => this._renderRow(row, ind))
+        }
       </ScrollView>
     );
   }
